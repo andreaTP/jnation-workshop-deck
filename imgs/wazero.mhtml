@@ -1,0 +1,1040 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://wazero.io/
+Subject: wazero
+Date: Thu, 7 Mar 2024 11:07:46 +0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--TUX4FSGPBGVjkTz9LIJN7Mw1OiRoIrvPrmMjC5CSAl----"
+
+
+------MultipartBoundary--TUX4FSGPBGVjkTz9LIJN7Mw1OiRoIrvPrmMjC5CSAl----
+Content-Type: text/html
+Content-ID: <frame-35684B4D78924FF1E0A14C1F423E6ABF@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://wazero.io/
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-f5f65204-f3b0-463d-a548-62383139248e@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-92ede49e-25eb-457f=
+-a4ea-38771032a0f0@mhtml.blink" /><meta name=3D"generator" content=3D"Hugo =
+0.115.2"><title>wazero</title><meta name=3D"viewport" content=3D"width=3Dde=
+vice-width,initial-scale=3D1"><meta name=3D"description" content=3D""><meta=
+ name=3D"keywords" content=3D""><meta name=3D"robots" content=3D"noodp"><li=
+nk rel=3D"canonical" href=3D"https://wazero.io/"><link rel=3D"stylesheet" h=
+ref=3D"https://wazero.io/assets/style.css"><link rel=3D"stylesheet" href=3D=
+"https://wazero.io/style.css"><link rel=3D"apple-touch-icon-precomposed" si=
+zes=3D"144x144" href=3D"https://wazero.io/img/apple-touch-icon-144-precompo=
+sed.png"><link rel=3D"shortcut icon" href=3D"https://wazero.io/img/favicon.=
+png"><link href=3D"https://wazero.io/assets/fonts/Inter-Italic.woff2" rel=
+=3D"preload" type=3D"font/woff2" as=3D"font" crossorigin=3D""><link href=3D=
+"https://wazero.io/assets/fonts/Inter-Regular.woff2" rel=3D"preload" type=
+=3D"font/woff2" as=3D"font" crossorigin=3D""><link href=3D"https://wazero.i=
+o/assets/fonts/Inter-Medium.woff2" rel=3D"preload" type=3D"font/woff2" as=
+=3D"font" crossorigin=3D""><link href=3D"https://wazero.io/assets/fonts/Int=
+er-MediumItalic.woff2" rel=3D"preload" type=3D"font/woff2" as=3D"font" cros=
+sorigin=3D""><link href=3D"https://wazero.io/assets/fonts/Inter-Bold.woff2"=
+ rel=3D"preload" type=3D"font/woff2" as=3D"font" crossorigin=3D""><link hre=
+f=3D"https://wazero.io/assets/fonts/Inter-BoldItalic.woff2" rel=3D"preload"=
+ type=3D"font/woff2" as=3D"font" crossorigin=3D""><meta name=3D"twitter:car=
+d" content=3D"summary"><meta name=3D"twitter:title" content=3D"the _zero_ d=
+ependency _WebAssembly_ runtime for _Go developers_"><meta name=3D"twitter:=
+description" content=3D""><meta property=3D"og:title" content=3D"the _zero_=
+ dependency _WebAssembly_ runtime for _Go developers_"><meta property=3D"og=
+:description" content=3D""><meta property=3D"og:type" content=3D"website"><=
+meta property=3D"og:url" content=3D"https://wazero.io/"><link rel=3D"altern=
+ate" type=3D"application/rss+xml" href=3D"https://wazero.io/index.xml" titl=
+e=3D"wazero"><link rel=3D"apple-touch-icon" sizes=3D"180x180" href=3D"https=
+://wazero.io/img/icon@180w.png"><link rel=3D"icon" type=3D"image/png" sizes=
+=3D"32x32" href=3D"https://wazero.io/img/icon@32w.png"><link rel=3D"icon" t=
+ype=3D"image/png" sizes=3D"16x16" href=3D"https://wazero.io/img/icon@16w.pn=
+g"><link rel=3D"icon" href=3D"https://wazero.io/favicon.ico"><link rel=3D"m=
+anifest" href=3D"https://wazero.io/manifest.webmanifest"></head><body data-=
+new-gr-c-s-check-loaded=3D"14.1159.0" data-gr-ext-installed=3D""><div class=
+=3D"container"><header class=3D"header"><span class=3D"header__inner"><a hr=
+ef=3D"https://wazero.io/" class=3D"svg-logo"><svg class=3D"svg-logo" width=
+=3D"150" height=3D"50" viewBox=3D"0 0 150 50" fill=3D"none" xmlns=3D"http:/=
+/www.w3.org/2000/svg"><path d=3D"M62.5775 31C62.4225 30.47 62.255 29.9025 6=
+2.075 29.2975 61.9 28.6925 61.735 28.1325 61.58 27.6175L60.5975 24.2725C60.=
+4275 23.6775 60.235 23.025 60.02 22.315 59.81 21.6 59.615 20.93 59.435 20.3=
+05H60.59C60.815 21.1 61.0525 21.9375 61.3025 22.8175 61.5525 23.6925 61.787=
+5 24.53 62.0075 25.33L63.26 29.7625H63.38L64.595 25.27C64.73 24.76 64.875 2=
+4.22 65.03 23.65S65.34 22.51 65.495 21.94C65.65 21.365 65.7975 20.82 65.937=
+5 20.305H67.22C67.44 21.1 67.6675 21.93 67.9025 22.795 68.1425 23.655 68.37=
+5 24.4875 68.6 25.2925l1.23 4.47H69.95l1.2675-4.5C71.4375 24.4875 71.67 23.=
+6625 71.915 22.7875 72.165 21.9075 72.3975 21.08 72.6125 20.305h1.155C73.58=
+25 20.94 73.385 21.6075 73.175 22.3075 72.97 23.0025 72.78 23.65 72.605 24.=
+25L71.6075 27.6175C71.4475 28.1525 71.28 28.7225 71.105 29.3275 70.93 29.92=
+75 70.765 30.485 70.61 31H69.2075C68.9925 30.23 68.765 29.4175 68.525 28.56=
+25 68.285 27.7025 68.0575 26.8975 67.8425 26.1475l-1.23-4.3875H66.5l-1.215 =
+4.3875C65.075 26.8975 64.85 27.705 64.61 28.57 64.37 29.435 64.145 30.245 6=
+3.935 31H62.5775zm11.0014.0C73.7939 30.42 74.0189 29.815 74.2539 29.185 74.=
+4889 28.55 74.7139 27.945 74.9289 27.37l1.3575-3.6675C76.5314 23.0475 76.75=
+14 22.4525 76.9464 21.9175 77.1464 21.3825 77.3464 20.845 77.5464 20.305h1.=
+41C79.1564 20.855 79.3539 21.395 79.5489 21.925 79.7439 22.455 79.9614 23.0=
+5 80.2014 23.71L81.5514 27.3925C81.7664 27.9825 81.9889 28.59 82.2189 29.21=
+5 82.4489 29.835 82.6664 30.43 82.8714 31h-1.095C81.5464 30.36 81.3089 29.7=
+025 81.0639 29.0275 80.8239 28.3475 80.5964 27.705 80.3814 27.1l-2.0775-5.8=
+05H78.1839l-2.0925 5.7525C75.8664 27.6725 75.6289 28.3275 75.3789 29.0125 7=
+5.1339 29.6925 74.8939 30.355 74.6589 31h-1.08zM75.4014 28.1875 75.4764 27.=
+3325h5.595L81.1314 28.1875h-5.73zM84.1407 31V30.4975C84.4357 30.1075 84.768=
+2 29.6675 85.1382 29.1775 85.5132 28.6875 85.8907 28.195 86.2707 27.7 86.65=
+57 27.2 87.0032 26.7425 87.3132 26.3275L91.6407 20.65 91.9782 20.9875h-3.25=
+5C88.0532 20.9875 87.3407 20.9875 86.5857 20.9875c-.75.0-1.5325.0-2.3475.0V=
+20.305H92.3757V20.905C91.8757 21.56 91.3857 22.2025 90.9057 22.8325 90.4257=
+ 23.4625 89.9432 24.0925 89.4582 24.7225l-4.605 6.045L84.6507 30.3175H87.62=
+82c.474999999999994.0 1.0025.0 1.5825.0s1.1525.0 1.7175.0 1.065.0 1.5.0V31H=
+84.1407zm10.7188.0c0-.605.0-1.185.0-1.74.0-.560000000000002.0-1.1675.0-1.82=
+25V23.875c0-.66.0-1.27.0-1.83.0-.560000000000002.0-1.14.0-1.74H101.257V20.9=
+875c-.52000000000001.0-1.08.0-1.68000000000001.0-.594999999999999.0-1.2975.=
+0-2.1075.0h-2.265L95.602 20.395c0 .605.0 1.1875.0 1.7475.0.560000000000002.=
+0 1.1675.0 1.8225V27.34c0 .649999999999999.0 1.255.0 1.815.0.555.0 1.135.0 =
+1.74L95.227 30.3175h2.3175c.689999999999998.0 1.34.0 1.95.0C100.104 30.3175=
+ 100.689 30.3175 101.249 30.3175V31H94.8595zM95.452 25.9V25.2325h2.145C98.3=
+07 25.2325 98.9195 25.2325 99.4345 25.2325s1.0125.0 1.49250000000001.0V25.9=
+C100.417 25.9 99.9045 25.9 99.3895 25.9 98.8795 25.9 98.277 25.9 97.582 25.=
+9h-2.13zM103.736 31c0-.605.0-1.185.0-1.74.0-.560000000000002.0-1.1675.0-1.8=
+225V23.875c0-.66.0-1.27.0-1.83.0-.560000000000002.0-1.14.0-1.74C104.006 20.=
+305 104.309 20.305 104.644 20.305c.334999999999994.0.704999999999998.0 1.11=
+.0s.85199999999999.0 1.342.0C107.876 20.305 108.521 20.4025 109.031 20.5975=
+ 109.541 20.7875 109.921 21.0875 110.171 21.4975S110.546 22.44 110.546 23.0=
+95C110.546 23.66 110.436 24.18 110.216 24.655 110.001 25.13 109.629 25.5125=
+ 109.099 25.8025 108.569 26.0875 107.841 26.2325 106.916 26.2375L107.074 25=
+.8625l1.807 2.1C109.166 28.2825 109.466 28.625 109.781 28.99 110.096 29.355=
+ 110.404 29.7125 110.704 30.0625 111.004 30.4125 111.274 30.725 111.514 31H=
+110.584C110.184 30.53 109.794 30.0775 109.414 29.6425 109.039 29.2075 108.6=
+69 28.7775 108.304 28.3525L106.309 26.02 106.796 26.3275H104.351V25.675H106=
+.519C107.269 25.675 107.884 25.59 108.364 25.42 108.844 25.25 109.199 24.98=
+ 109.429 24.61 109.659 24.235 109.774 23.745 109.774 23.14 109.774 22.61 10=
+9.686 22.1975 109.511 21.9025 109.341 21.6075 109.119 21.395 108.844 21.265=
+ 108.574 21.135 108.281 21.055 107.966 21.025 107.651 20.99 107.349 20.9725=
+ 107.059 20.9725h-3.023L104.479 20.395c0 .609999999999999.0 1.195.0 1.755.0=
+.555.0 1.16.0 1.815v3.4725c0 .655000000000001.0 1.2625.0 1.8225.0.555.0 1.1=
+35.0 1.74H103.736zM118.054 31.1425C117.179 31.1425 116.409 31 115.744 30.71=
+5 115.079 30.425 114.521 30.025 114.071 29.515 113.626 29 113.289 28.4125 1=
+13.059 27.7525 112.834 27.0875 112.721 26.3825 112.721 25.6375 112.721 24.5=
+975 112.934 23.6625 113.359 22.8325 113.784 21.9975 114.391 21.3375 115.181=
+ 20.8525 115.976 20.3625 116.924 20.1175 118.024 20.1175 118.864 20.1175 11=
+9.609 20.26 120.259 20.545 120.909 20.83 121.459 21.225 121.909 21.73 122.3=
+64 22.235 122.706 22.82 122.936 23.485 123.171 24.15 123.289 24.865 123.289=
+ 25.63 123.289 26.685 123.076 27.6275 122.651 28.4575 122.231 29.2875 121.6=
+29 29.9425 120.844 30.4225 120.064 30.9025 119.134 31.1425 118.054 31.1425z=
+M118.024 30.4375C118.809 30.4375 119.484 30.3075 120.049 30.0475 120.614 29=
+.7825 121.076 29.4225 121.436 28.9675 121.801 28.5125 122.071 28 122.246 27=
+.43 122.421 26.855 122.509 26.255 122.509 25.63 122.509 24.96 122.414 24.33=
+5 122.224 23.755 122.039 23.17 121.759 22.66 121.384 22.225 121.009 21.785 =
+120.541 21.4425 119.981 21.1975 119.421 20.9475 118.769 20.8225 118.024 20.=
+8225 117.254 20.8225 116.584 20.9525 116.014 21.2125 115.449 21.4725 114.97=
+9 21.83 114.604 22.285 114.234 22.735 113.956 23.2475 113.771 23.8225 113.5=
+91 24.3975 113.501 25 113.501 25.63 113.501 26.265 113.589 26.8725 113.764 =
+27.4525 113.944 28.0275 114.216 28.54 114.581 28.99 114.951 29.44 115.421 2=
+9.795 115.991 30.055 116.561 30.31 117.239 30.4375 118.024 30.4375z"></path=
+><path d=3D"M38.0079 14.0775C40.3316 13.8822 42.6572 14.4316 44.6477 15.646=
+3c1.9906 1.2147 3.5428 3.0315 4.4317 5.1873C49.9684 22.9894 50.148 25.3722 =
+49.5922 27.6369 49.0364 29.9016 47.774 31.9306 45.988 33.4299l-2.824-3.3641=
+c1.0716-.8996 1.829-2.1169 2.1625-3.4758C45.6599 25.2312 45.5522 23.8015 45=
+.0188 22.508c-.5334-1.2934-1.4647-2.3835-2.659-3.1124C41.1654 18.6668 39.77=
+01 18.3372 38.3759 18.4544L38.0079 14.0775z"></path><path d=3D"M31.6766 16.=
+8178c-1.7375 1.5552-2.9349 3.6232-3.4185 5.9044C27.7744 25.0034 28.0295 27.=
+3793 28.9864 29.5058s2.5659 3.8932 4.594 5.0441c2.0281 1.151 4.3699 1.6264 =
+6.6862 1.3574L39.76 31.5443C38.3702 31.7057 36.9651 31.4204 35.7482 30.7299=
+ 34.5314 30.0393 33.566 28.9793 32.9918 27.7034 32.4177 26.4275 32.2646 25.=
+0019 32.5548 23.6332 32.845 22.2645 33.5634 21.0237 34.606 20.0906l-2.9294-=
+3.2728z"></path></svg></a><span class=3D"header__right"><nav class=3D"menu"=
+><ul class=3D"menu__inner menu__inner--desktop"><li><a href=3D"https://waze=
+ro.io/docs/">Docs</a></li><li><a href=3D"https://github.com/tetratelabs/waz=
+ero/blob/main/examples">Examples</a></li><li><a href=3D"https://wazero.io/c=
+ommunity/">Community</a></li><ul class=3D"menu__sub-inner"><li class=3D"men=
+u__sub-inner-more-trigger">Appendix
+<span class=3D"menu__sub-inner-more-trigger-icon"><svg xmlns=3D"http://www.=
+w3.org/2000/svg" class=3D"greater-icon" viewBox=3D"0 0 44 44"><path fill=3D=
+"none" d=3D"M15 8l14.729 14.382L15 35.367"></path></svg></span></li><ul cla=
+ss=3D"menu__sub-inner-more hidden"><li><a href=3D"https://wazero.io/specs/"=
+>Specifications</a></li><li><a href=3D"https://wazero.io/languages/">Langua=
+ges</a></li></ul></ul></ul><ul class=3D"menu__inner menu__inner--mobile"><l=
+i><a href=3D"https://wazero.io/docs/">Docs</a></li><li><a href=3D"https://g=
+ithub.com/tetratelabs/wazero/blob/main/examples">Examples</a></li><li><a hr=
+ef=3D"https://wazero.io/community/">Community</a></li><li><a href=3D"https:=
+//wazero.io/specs/">Specifications</a></li><li><a href=3D"https://wazero.io=
+/languages/">Languages</a></li></ul></nav><span class=3D"menu-trigger hidde=
+n"><svg xmlns=3D"http://www.w3.org/2000/svg" viewBox=3D"0 0 24 24"><path d=
+=3D"M0 0h24v24H0z" fill=3D"none"></path><path d=3D"M3 18h18v-2H3v2zm0-5h18v=
+-2H3v2zm0-7v2h18V6H3z"></path></svg></span><span class=3D"theme-toggle"><sv=
+g class=3D"theme-toggler" width=3D"24" height=3D"24" viewBox=3D"0 0 48 48" =
+fill=3D"none" xmlns=3D"http://www.w3.org/2000/svg"><path d=3D"M22 41c10.493=
+4.0 19-8.5066 19-19C41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.50=
+66 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"><=
+/path></svg></span></span></span></header><div class=3D"content"><div class=
+=3D"post"><div class=3D"main-title"><div class=3D"svg-logo" alt=3D"wazero">=
+<svg class=3D"svg-logo" viewBox=3D"25 0 110 50" fill=3D"none" xmlns=3D"http=
+://www.w3.org/2000/svg"><path d=3D"M62.5775 31C62.4225 30.47 62.255 29.9025=
+ 62.075 29.2975 61.9 28.6925 61.735 28.1325 61.58 27.6175L60.5975 24.2725C6=
+0.4275 23.6775 60.235 23.025 60.02 22.315 59.81 21.6 59.615 20.93 59.435 20=
+.305H60.59C60.815 21.1 61.0525 21.9375 61.3025 22.8175 61.5525 23.6925 61.7=
+875 24.53 62.0075 25.33L63.26 29.7625H63.38L64.595 25.27C64.73 24.76 64.875=
+ 24.22 65.03 23.65S65.34 22.51 65.495 21.94C65.65 21.365 65.7975 20.82 65.9=
+375 20.305H67.22C67.44 21.1 67.6675 21.93 67.9025 22.795 68.1425 23.655 68.=
+375 24.4875 68.6 25.2925l1.23 4.47H69.95l1.2675-4.5C71.4375 24.4875 71.67 2=
+3.6625 71.915 22.7875 72.165 21.9075 72.3975 21.08 72.6125 20.305h1.155C73.=
+5825 20.94 73.385 21.6075 73.175 22.3075 72.97 23.0025 72.78 23.65 72.605 2=
+4.25L71.6075 27.6175C71.4475 28.1525 71.28 28.7225 71.105 29.3275 70.93 29.=
+9275 70.765 30.485 70.61 31H69.2075C68.9925 30.23 68.765 29.4175 68.525 28.=
+5625 68.285 27.7025 68.0575 26.8975 67.8425 26.1475l-1.23-4.3875H66.5l-1.21=
+5 4.3875C65.075 26.8975 64.85 27.705 64.61 28.57 64.37 29.435 64.145 30.245=
+ 63.935 31H62.5775zm11.0014.0C73.7939 30.42 74.0189 29.815 74.2539 29.185 7=
+4.4889 28.55 74.7139 27.945 74.9289 27.37l1.3575-3.6675C76.5314 23.0475 76.=
+7514 22.4525 76.9464 21.9175 77.1464 21.3825 77.3464 20.845 77.5464 20.305h=
+1.41C79.1564 20.855 79.3539 21.395 79.5489 21.925 79.7439 22.455 79.9614 23=
+.05 80.2014 23.71L81.5514 27.3925C81.7664 27.9825 81.9889 28.59 82.2189 29.=
+215 82.4489 29.835 82.6664 30.43 82.8714 31h-1.095C81.5464 30.36 81.3089 29=
+.7025 81.0639 29.0275 80.8239 28.3475 80.5964 27.705 80.3814 27.1l-2.0775-5=
+.805H78.1839l-2.0925 5.7525C75.8664 27.6725 75.6289 28.3275 75.3789 29.0125=
+ 75.1339 29.6925 74.8939 30.355 74.6589 31h-1.08zM75.4014 28.1875 75.4764 2=
+7.3325h5.595L81.1314 28.1875h-5.73zM84.1407 31V30.4975C84.4357 30.1075 84.7=
+682 29.6675 85.1382 29.1775 85.5132 28.6875 85.8907 28.195 86.2707 27.7 86.=
+6557 27.2 87.0032 26.7425 87.3132 26.3275L91.6407 20.65 91.9782 20.9875h-3.=
+255C88.0532 20.9875 87.3407 20.9875 86.5857 20.9875c-.75.0-1.5325.0-2.3475.=
+0V20.305H92.3757V20.905C91.8757 21.56 91.3857 22.2025 90.9057 22.8325 90.42=
+57 23.4625 89.9432 24.0925 89.4582 24.7225l-4.605 6.045L84.6507 30.3175H87.=
+6282c.474999999999994.0 1.0025.0 1.5825.0s1.1525.0 1.7175.0 1.065.0 1.5.0V3=
+1H84.1407zm10.7188.0c0-.605.0-1.185.0-1.74.0-.560000000000002.0-1.1675.0-1.=
+8225V23.875c0-.66.0-1.27.0-1.83.0-.560000000000002.0-1.14.0-1.74H101.257V20=
+.9875c-.52000000000001.0-1.08.0-1.68000000000001.0-.594999999999999.0-1.297=
+5.0-2.1075.0h-2.265L95.602 20.395c0 .605.0 1.1875.0 1.7475.0.56000000000000=
+2.0 1.1675.0 1.8225V27.34c0 .649999999999999.0 1.255.0 1.815.0.555.0 1.135.=
+0 1.74L95.227 30.3175h2.3175c.689999999999998.0 1.34.0 1.95.0C100.104 30.31=
+75 100.689 30.3175 101.249 30.3175V31H94.8595zM95.452 25.9V25.2325h2.145C98=
+.307 25.2325 98.9195 25.2325 99.4345 25.2325s1.0125.0 1.49250000000001.0V25=
+.9C100.417 25.9 99.9045 25.9 99.3895 25.9 98.8795 25.9 98.277 25.9 97.582 2=
+5.9h-2.13zM103.736 31c0-.605.0-1.185.0-1.74.0-.560000000000002.0-1.1675.0-1=
+.8225V23.875c0-.66.0-1.27.0-1.83.0-.560000000000002.0-1.14.0-1.74C104.006 2=
+0.305 104.309 20.305 104.644 20.305c.334999999999994.0.704999999999998.0 1.=
+11.0s.85199999999999.0 1.342.0C107.876 20.305 108.521 20.4025 109.031 20.59=
+75 109.541 20.7875 109.921 21.0875 110.171 21.4975S110.546 22.44 110.546 23=
+.095C110.546 23.66 110.436 24.18 110.216 24.655 110.001 25.13 109.629 25.51=
+25 109.099 25.8025 108.569 26.0875 107.841 26.2325 106.916 26.2375L107.074 =
+25.8625l1.807 2.1C109.166 28.2825 109.466 28.625 109.781 28.99 110.096 29.3=
+55 110.404 29.7125 110.704 30.0625 111.004 30.4125 111.274 30.725 111.514 3=
+1H110.584C110.184 30.53 109.794 30.0775 109.414 29.6425 109.039 29.2075 108=
+.669 28.7775 108.304 28.3525L106.309 26.02 106.796 26.3275H104.351V25.675H1=
+06.519C107.269 25.675 107.884 25.59 108.364 25.42 108.844 25.25 109.199 24.=
+98 109.429 24.61 109.659 24.235 109.774 23.745 109.774 23.14 109.774 22.61 =
+109.686 22.1975 109.511 21.9025 109.341 21.6075 109.119 21.395 108.844 21.2=
+65 108.574 21.135 108.281 21.055 107.966 21.025 107.651 20.99 107.349 20.97=
+25 107.059 20.9725h-3.023L104.479 20.395c0 .609999999999999.0 1.195.0 1.755=
+.0.555.0 1.16.0 1.815v3.4725c0 .655000000000001.0 1.2625.0 1.8225.0.555.0 1=
+.135.0 1.74H103.736zM118.054 31.1425C117.179 31.1425 116.409 31 115.744 30.=
+715 115.079 30.425 114.521 30.025 114.071 29.515 113.626 29 113.289 28.4125=
+ 113.059 27.7525 112.834 27.0875 112.721 26.3825 112.721 25.6375 112.721 24=
+.5975 112.934 23.6625 113.359 22.8325 113.784 21.9975 114.391 21.3375 115.1=
+81 20.8525 115.976 20.3625 116.924 20.1175 118.024 20.1175 118.864 20.1175 =
+119.609 20.26 120.259 20.545 120.909 20.83 121.459 21.225 121.909 21.73 122=
+.364 22.235 122.706 22.82 122.936 23.485 123.171 24.15 123.289 24.865 123.2=
+89 25.63 123.289 26.685 123.076 27.6275 122.651 28.4575 122.231 29.2875 121=
+.629 29.9425 120.844 30.4225 120.064 30.9025 119.134 31.1425 118.054 31.142=
+5zM118.024 30.4375C118.809 30.4375 119.484 30.3075 120.049 30.0475 120.614 =
+29.7825 121.076 29.4225 121.436 28.9675 121.801 28.5125 122.071 28 122.246 =
+27.43 122.421 26.855 122.509 26.255 122.509 25.63 122.509 24.96 122.414 24.=
+335 122.224 23.755 122.039 23.17 121.759 22.66 121.384 22.225 121.009 21.78=
+5 120.541 21.4425 119.981 21.1975 119.421 20.9475 118.769 20.8225 118.024 2=
+0.8225 117.254 20.8225 116.584 20.9525 116.014 21.2125 115.449 21.4725 114.=
+979 21.83 114.604 22.285 114.234 22.735 113.956 23.2475 113.771 23.8225 113=
+.591 24.3975 113.501 25 113.501 25.63 113.501 26.265 113.589 26.8725 113.76=
+4 27.4525 113.944 28.0275 114.216 28.54 114.581 28.99 114.951 29.44 115.421=
+ 29.795 115.991 30.055 116.561 30.31 117.239 30.4375 118.024 30.4375z"></pa=
+th><path d=3D"M38.0079 14.0775C40.3316 13.8822 42.6572 14.4316 44.6477 15.6=
+463c1.9906 1.2147 3.5428 3.0315 4.4317 5.1873C49.9684 22.9894 50.148 25.372=
+2 49.5922 27.6369 49.0364 29.9016 47.774 31.9306 45.988 33.4299l-2.824-3.36=
+41c1.0716-.8996 1.829-2.1169 2.1625-3.4758C45.6599 25.2312 45.5522 23.8015 =
+45.0188 22.508c-.5334-1.2934-1.4647-2.3835-2.659-3.1124C41.1654 18.6668 39.=
+7701 18.3372 38.3759 18.4544L38.0079 14.0775z"></path><path d=3D"M31.6766 1=
+6.8178c-1.7375 1.5552-2.9349 3.6232-3.4185 5.9044C27.7744 25.0034 28.0295 2=
+7.3793 28.9864 29.5058s2.5659 3.8932 4.594 5.0441c2.0281 1.151 4.3699 1.626=
+4 6.6862 1.3574L39.76 31.5443C38.3702 31.7057 36.9651 31.4204 35.7482 30.72=
+99 34.5314 30.0393 33.566 28.9793 32.9918 27.7034 32.4177 26.4275 32.2646 2=
+5.0019 32.5548 23.6332 32.845 22.2645 33.5634 21.0237 34.606 20.0906l-2.929=
+4-3.2728z"></path></svg></div><h1 class=3D"post-title">the <em>zero</em> de=
+pendency <em>WebAssembly</em> runtime for <em>Go&nbsp;developers</em></h1><=
+/div><div class=3D"post-meta"></div><div class=3D"post-content"><p><strong>=
+WebAssembly</strong> is a way to safely run code compiled in other language=
+s. Runtimes
+execute WebAssembly Modules (Wasm), which are most often binaries with a
+<code>.wasm</code> extension.</p><p><strong>wazero</strong> is the only zer=
+o dependency WebAssembly runtime written in Go.</p><h2 id=3D"get-started">G=
+et Started
+<a href=3D"https://wazero.io/#get-started" class=3D"h-anchor" aria-hidden=
+=3D"true">#</a></h2><p><strong>Get the wazero CLI</strong> and run any Wasm=
+ binary</p><div class=3D"highlight"><div class=3D"code-toolbar"><pre tabind=
+ex=3D"0" style=3D"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o=
+-tab-size:4;tab-size:4" class=3D" language-bash"><code class=3D" language-b=
+ash" data-lang=3D"bash"><span class=3D"token function">curl</span> https://=
+wazero.io/install.sh <span class=3D"token operator">|</span> sh
+./bin/wazero run app.wasm
+</code></pre><div class=3D"toolbar"><div class=3D"toolbar-item"><a>Copy</a>=
+</div></div></div></div><p><strong>Embed wazero</strong> in your Go project=
+ and extend any app</p><div class=3D"highlight"><div class=3D"code-toolbar"=
+><pre tabindex=3D"0" style=3D"color:#f8f8f2;background-color:#272822;-moz-t=
+ab-size:4;-o-tab-size:4;tab-size:4" class=3D" language-go"><code class=3D" =
+language-go" data-lang=3D"go"><span class=3D"token keyword">import</span> <=
+span class=3D"token string">"github.com/tetratelabs/wazero"</span>
+
+<span class=3D"token comment">// ...</span>
+
+r <span class=3D"token operator">:=3D</span> wazero<span class=3D"token pun=
+ctuation">.</span><span class=3D"token function">NewRuntime</span><span cla=
+ss=3D"token punctuation">(</span>ctx<span class=3D"token punctuation">)</sp=
+an>
+<span class=3D"token keyword">defer</span> r<span class=3D"token punctuatio=
+n">.</span><span class=3D"token function">Close</span><span class=3D"token =
+punctuation">(</span>ctx<span class=3D"token punctuation">)</span>
+mod<span class=3D"token punctuation">,</span> <span class=3D"token boolean"=
+>_</span> <span class=3D"token operator">:=3D</span> r<span class=3D"token =
+punctuation">.</span><span class=3D"token function">Instantiate</span><span=
+ class=3D"token punctuation">(</span>ctx<span class=3D"token punctuation">,=
+</span> wasmAdd<span class=3D"token punctuation">)</span>
+res<span class=3D"token punctuation">,</span> <span class=3D"token boolean"=
+>_</span> <span class=3D"token operator">:=3D</span> mod<span class=3D"toke=
+n punctuation">.</span><span class=3D"token function">ExportedFunction</spa=
+n><span class=3D"token punctuation">(</span><span class=3D"token string">"a=
+dd"</span><span class=3D"token punctuation">)</span><span class=3D"token pu=
+nctuation">.</span><span class=3D"token function">Call</span><span class=3D=
+"token punctuation">(</span>ctx<span class=3D"token punctuation">,</span> <=
+span class=3D"token number">1</span><span class=3D"token punctuation">,</sp=
+an> <span class=3D"token number">2</span><span class=3D"token punctuation">=
+)</span>
+</code></pre><div class=3D"toolbar"><div class=3D"toolbar-item"><a>Copy</a>=
+</div></div></div></div><hr><h2 id=3D"example">Example
+<a href=3D"https://wazero.io/#example" class=3D"h-anchor" aria-hidden=3D"tr=
+ue">#</a></h2><p>The best way to learn wazero is by trying one of our <a hr=
+ef=3D"https://github.com/tetratelabs/wazero/blob/main/examples">examples</a=
+>. The
+most <a href=3D"https://github.com/tetratelabs/wazero/blob/main/examples/ba=
+sic">basic example</a> extends a Go application with an addition function
+defined in WebAssembly.</p><h2 id=3D"why-zero">Why zero?
+<a href=3D"https://wazero.io/#why-zero" class=3D"h-anchor" aria-hidden=3D"t=
+rue">#</a></h2><p>By avoiding CGO, wazero avoids prerequisites such as shar=
+ed libraries or libc,
+and lets you keep features like cross compilation. Being pure Go, wazero ad=
+ds
+only a small amount of size to your binary. Meanwhile, wazero=E2=80=99s API=
+ gives
+features you expect in Go, such as safe concurrency and context propagation=
+.</p><h3 id=3D"when-can-i-use-this">When can I use this?
+<a href=3D"https://wazero.io/#when-can-i-use-this" class=3D"h-anchor" aria-=
+hidden=3D"true">#</a></h3><p>You can use wazero today! wazero=E2=80=99s <a =
+href=3D"https://tetrate.io/blog/introducing-wazero-from-tetrate/">1.0 relea=
+se</a> happened in March 2023, and
+is <a href=3D"https://wazero.io/community/users/">in use</a> by many projec=
+ts and
+production sites.</p><p>You can get the latest version of wazero like this.=
+</p><div class=3D"highlight"><div class=3D"code-toolbar"><pre tabindex=3D"0=
+" style=3D"color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-si=
+ze:4;tab-size:4" class=3D" language-bash"><code class=3D" language-bash" da=
+ta-lang=3D"bash">go get github.com/tetratelabs/wazero@latest
+</code></pre><div class=3D"toolbar"><div class=3D"toolbar-item"><a>Copy</a>=
+</div></div></div></div><p>Please give us a <a href=3D"https://github.com/t=
+etratelabs/wazero/stargazers">star</a> if you end up using wazero!</p></div=
+></div></div><footer class=3D"footer"><div class=3D"footer__inner"><div cla=
+ss=3D"copyright copyright--user">2023 =C2=A9 Tetrate.io, Inc.</div></div><d=
+iv class=3D"footer__inner"><div class=3D"copyright copyright--user">wazero =
+is a registered trademark of Tetrate.io, Inc. in the United States and/or o=
+ther countries</div></div></footer>
+</div>
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=
+=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-con=
+tent=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;=
+isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integrati=
+on></html>
+------MultipartBoundary--TUX4FSGPBGVjkTz9LIJN7Mw1OiRoIrvPrmMjC5CSAl----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f5f65204-f3b0-463d-a548-62383139248e@mhtml.blink
+
+@charset "utf-8";
+
+.svg-logo { display: flex; align-items: center; flex: 0 0 auto; text-decora=
+tion: none; font-weight: 700; }
+
+.svg-logo > svg { position: absolute; height: 44px; }
+
+.svg-logo > svg > path { fill: var(--color); }
+------MultipartBoundary--TUX4FSGPBGVjkTz9LIJN7Mw1OiRoIrvPrmMjC5CSAl----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-92ede49e-25eb-457f-a4ea-38771032a0f0@mhtml.blink
+
+@charset "utf-8";
+
+@media screen and (min-width: 50rem) {
+  header .svg-logo { display: none; }
+  .header__right { margin: auto; }
+  .post .main-title { float: left; width: 350px; display: block; }
+  .post { max-width: 900px; }
+  .main-title .svg-logo > svg { width: 250px; height: 120px; position: rela=
+tive; display: inline; }
+  .main-title .svg-logo { display: block !important; }
+  .post .main-title > h1 > em { font-style: normal; background: rgb(33, 32,=
+ 32); padding: 0.2em; line-height: 1.9em; color: var(--background); }
+  .dark-theme .post .main-title > h1 > em { color: var(--color); }
+}
+
+.content { margin: 0px; }
+
+.main-title .svg-logo { display: none; }
+------MultipartBoundary--TUX4FSGPBGVjkTz9LIJN7Mw1OiRoIrvPrmMjC5CSAl----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://wazero.io/assets/style.css
+
+@charset "utf-8";
+
+:root { --background: #fff; --background-secondary: #eaeaea; --header: #faf=
+afa; --color: #222; --color-secondary: #999; --border-color: #dcdcdc; --pho=
+neWidth: (max-width:684px); --tabletWidth: (max-width:900px); }
+
+body.dark-theme { --background: #292a2d; --background-secondary: #3b3d42; -=
+-header: #252627; --color: #a9a9b3; --color-secondary: #73747b; --border-co=
+lor: #4a4b50; }
+
+@font-face { font-feature-settings: "liga", "tnum", "case", "calt", "zero",=
+ "ss01", "locl"; font-display: swap; font-family: Inter; font-style: normal=
+; font-weight: 400; src: url("fonts/Inter-Regular.woff2") format("woff2"); =
+}
+
+@font-face { font-feature-settings: "liga", "tnum", "case", "calt", "zero",=
+ "ss01", "locl"; font-display: swap; font-family: Inter; font-style: italic=
+; font-weight: 400; src: url("fonts/Inter-Italic.woff2") format("woff2"); }
+
+@font-face { font-feature-settings: "liga", "tnum", "case", "calt", "zero",=
+ "ss01", "locl"; font-display: swap; font-family: Inter; font-style: normal=
+; font-weight: 600; src: url("fonts/Inter-Medium.woff2") format("woff2"); }
+
+@font-face { font-feature-settings: "liga", "tnum", "case", "calt", "zero",=
+ "ss01", "locl"; font-display: swap; font-family: Inter; font-style: italic=
+; font-weight: 600; src: url("fonts/Inter-MediumItalic.woff2") format("woff=
+2"); }
+
+@font-face { font-feature-settings: "liga", "tnum", "case", "calt", "zero",=
+ "ss01", "locl"; font-display: swap; font-family: Inter; font-style: normal=
+; font-weight: 800; src: url("fonts/Inter-Bold.woff2") format("woff2"); }
+
+@font-face { font-feature-settings: "liga", "tnum", "case", "calt", "zero",=
+ "ss01", "locl"; font-display: swap; font-family: Inter; font-style: italic=
+; font-weight: 800; src: url("fonts/Inter-BoldItalic.woff2") format("woff2"=
+); }
+
+.button-container { display: table; margin-left: auto; margin-right: auto; =
+}
+
+.button, a.button, button { align-items: center; appearance: none; backgrou=
+nd: var(--background-secondary); border: 1px solid transparent; border-radi=
+us: 8px; cursor: pointer; display: flex; font-weight: 500; justify-content:=
+ center; margin-bottom: 5px; outline: none; padding: 8px 18px; position: re=
+lative; text-align: center; text-decoration: none; }
+
+.button.outline, a.button.outline, button.outline { background: transparent=
+; border-color: var(--background-secondary); box-shadow: none; padding: 8px=
+ 18px; }
+
+.button.outline :hover, a.button.outline :hover, button.outline :hover { bo=
+x-shadow: none; transform: none; }
+
+.button.primary, a.button.primary, button.primary { box-shadow: rgba(50, 50=
+, 93, 0.11) 0px 4px 6px, rgba(0, 0, 0, 0.08) 0px 1px 3px; }
+
+.button.primary:hover, a.button.primary:hover, button.primary:hover { box-s=
+hadow: rgba(50, 50, 93, 0.21) 0px 2px 6px, rgba(0, 0, 0, 0.08) 0px 1px 3px;=
+ }
+
+.button.link, a.button.link, button.link { background: none; font-size: 1re=
+m; }
+
+.button.small, a.button.small, button.small { font-size: 0.8rem; }
+
+.button.wide, a.button.wide, button.wide { min-width: 200px; padding: 14px =
+24px; }
+
+a.read-more, a.read-more:active, a.read-more:hover { background: none; box-=
+shadow: none; display: inline-flex; font-weight: 700; margin: 20px 0px; pad=
+ding: 0px; }
+
+.code-toolbar { margin-bottom: 20px; }
+
+.code-toolbar .toolbar-item a { appearance: none; background: var(--backgro=
+und-secondary); border: 1px solid transparent; border-radius: 8px; cursor: =
+pointer; display: inline-flex; font-size: 13px; font-weight: 500; margin-bo=
+ttom: 5px; outline: none; padding: 3px 8px; text-align: center; text-decora=
+tion: none; }
+
+.code-toolbar .toolbar-item a, .header { align-items: center; justify-conte=
+nt: center; position: relative; }
+
+.header { background: var(--header); display: flex; padding: 20px; }
+
+.header__right { align-items: center; display: flex; flex-direction: row; }
+
+@media (max-width: 683px) {
+  .header__right { flex-direction: row-reverse; }
+}
+
+.header__inner { justify-content: space-between; margin: 0px auto; max-widt=
+h: 100%; width: 760px; }
+
+.header__inner, .theme-toggle { align-items: center; display: flex; }
+
+.theme-toggle { cursor: pointer; justify-content: center; line-height: 1; }
+
+.theme-toggler { fill: currentcolor; }
+
+.logo { align-items: center; display: flex; flex: 0 0 auto; font-weight: 70=
+0; text-decoration: none; }
+
+.logo img { height: 44px; }
+
+.logo__mark { align-items: center; display: inline-flex; margin-right: 5px;=
+ }
+
+.logo__mark .greater-icon { height: 100%; width: 0.95rem; }
+
+.logo__mark .greater-icon path { stroke: currentcolor; stroke-width: 8px; }
+
+.logo__text { font-size: 1.125rem; }
+
+.logo__cursor { animation: 1s ease 0s infinite normal none running cursor; =
+background: rgb(254, 81, 134); border-radius: 1px; display: inline-block; h=
+eight: 1rem; margin-left: 5px; width: 10px; }
+
+@-webkit-keyframes cursor {=20
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes cursor {=20
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.menu { --color: rgba(0,0,0,.12); --shadow: 0 8px 20px var(--color); border=
+-right: 1px solid; font-weight: 500; margin-right: 18px; padding-right: 24p=
+x; }
+
+@media (max-width: 683px) {
+  .menu { background: var(--header); border: none; border-radius: 5px; box-=
+shadow: var(--shadow); list-style: none; margin: 0px; padding: 5px; positio=
+n: absolute; right: 10px; top: 50px; z-index: 99; }
+}
+
+.menu a { text-decoration: none; }
+
+.menu__inner { align-items: center; display: flex; flex-wrap: wrap; justify=
+-content: flex-end; list-style: none; margin: 0px; padding: 0px; }
+
+@media (max-width: 683px) {
+  .menu__inner--desktop { display: none; }
+}
+
+.menu__inner--mobile { display: none; }
+
+@media (max-width: 683px) {
+  .menu__inner--mobile { display: block; }
+}
+
+.menu__inner li { flex: 0 0 auto; text-align: left; }
+
+.menu__inner li:not(:first-of-type) { margin-left: 20px; }
+
+@media (max-width: 683px) {
+  .menu__inner { align-items: flex-start; flex-direction: column; padding: =
+0px; }
+  .menu__inner li { padding: 10px; margin-left: 0px !important; }
+}
+
+.menu__sub-inner { list-style: none; margin: 0px; padding: 0px; position: r=
+elative; }
+
+.menu__sub-inner:not(:only-child) { margin-left: 20px; }
+
+.menu__sub-inner-more { background: var(--header); border-radius: 5px; box-=
+shadow: var(--shadow); left: 0px; list-style: none; margin: 0px; padding: 5=
+px; position: absolute; top: 35px; z-index: 99; }
+
+.menu__sub-inner-more-trigger { align-items: center; cursor: pointer; displ=
+ay: inline-flex; user-select: none; }
+
+.menu__sub-inner-more-trigger-icon { align-items: center; display: inline-f=
+lex; line-height: 1; margin-left: 3px; transform: rotate(90deg); }
+
+.menu__sub-inner-more-trigger-icon .greater-icon { height: 100%; width: 0.9=
+5rem; }
+
+.menu__sub-inner-more-trigger-icon .greater-icon path { stroke: currentcolo=
+r; stroke-width: 5px; }
+
+.menu__inner .menu__sub-inner-more li { margin-left: 0px; white-space: nowr=
+ap; }
+
+.menu__inner .menu__sub-inner-more li:hover { background: rgba(0, 0, 0, 0.0=
+5); border-radius: 3px; cursor: pointer; }
+
+.menu__sub-inner-more li a { display: inline-block; padding: 10px; width: 1=
+00%; }
+
+.menu-trigger { fill: currentcolor; cursor: pointer; height: 24px; margin-l=
+eft: 10px; width: 24px; }
+
+html { box-sizing: border-box; }
+
+*, ::after, ::before { box-sizing: inherit; }
+
+body { font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01=
+", "locl"; text-rendering: optimizelegibility; -webkit-font-smoothing: anti=
+aliased; text-size-adjust: 100%; background-color: var(--background); color=
+: var(--color); font-family: Inter, -apple-system, BlinkMacSystemFont, Robo=
+to, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 1rem; font-weight:=
+ 500; line-height: 1.54; margin: 0px; padding: 0px; }
+
+@media (max-width: 683px) {
+  body { font-size: 1rem; }
+}
+
+h1, h2, h3, h4, h5, h6 { line-height: 1.3; }
+
+h1 { font-size: 2.625rem; }
+
+h2 { font-size: 1.625rem; }
+
+h3 { font-size: 1.375rem; }
+
+h4 { font-size: 1.125rem; }
+
+@media (max-width: 683px) {
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.15rem; }
+  h4 { font-size: 1.125rem; }
+}
+
+a { color: inherit; }
+
+img { display: block; max-width: 100%; }
+
+img.center, img.left { margin-right: auto; }
+
+img.center, img.right { margin-left: auto; }
+
+figure { display: table; margin: 25px 0px; max-width: 100%; }
+
+figure.center, figure.left { margin-right: auto; }
+
+figure.center, figure.right { margin-left: auto; }
+
+figure figcaption { font-size: 0.9rem; margin-top: 5px; opacity: 0.8; }
+
+figure figcaption.left { text-align: left; }
+
+figure figcaption.center { text-align: center; }
+
+figure figcaption.right { text-align: right; }
+
+code, kbd { font-feature-settings: normal; background: var(--background-sec=
+ondary); border-radius: 5px; font-family: Consolas, Monaco, "Andale Mono", =
+"Ubuntu Mono", monospace; font-size: 0.9rem; font-weight: 400; margin: 0px =
+2px; padding: 1px 6px; }
+
+code code, code kbd, kbd code, kbd kbd { background: transparent; margin: 0=
+px; padding: 0px; }
+
+pre { font-feature-settings: normal; background: rgb(33, 32, 32); border-ra=
+dius: 8px; font-size: 0.9rem; overflow: auto; padding: 20px; }
+
+@media (max-width: 683px) {
+  pre { overflow-wrap: break-word; white-space: pre-wrap; }
+}
+
+pre code { font-feature-settings: normal; color: rgb(204, 204, 204); font-s=
+ize: inherit; margin: 0px; padding: 0px; background: none !important; }
+
+blockquote { border-left: 2px solid; margin: 40px; padding: 10px 20px; }
+
+@media (max-width: 683px) {
+  blockquote { margin: 10px; padding: 10px; }
+}
+
+blockquote::before { content: "=E2=80=9D"; font-family: Georgia, serif; fon=
+t-size: 3.875rem; left: -40px; position: absolute; top: -20px; }
+
+blockquote p:first-of-type { margin-top: 0px; }
+
+blockquote p:last-of-type { margin-bottom: 0px; }
+
+table:not(.js-file-line-container) { border-collapse: collapse; border-radi=
+us: 5px; margin: 40px 0px; table-layout: fixed; width: 100%; }
+
+table, td:not(.js-line-number), th { border: 1px solid; padding: 10px; }
+
+th { background: var(--background-secondary); }
+
+ol, ul { margin-left: 40px; padding: 0px; }
+
+@media (max-width: 683px) {
+  ol, ul { margin-left: 20px; }
+}
+
+ol ol { list-style-type: lower-alpha; }
+
+.container { text-align: center; }
+
+.container, .content { display: flex; flex-direction: column; justify-conte=
+nt: center; }
+
+.content { align-items: center; flex: 1 1 auto; margin: 50px 0px; }
+
+@media (max-width: 683px) {
+  .content { margin-top: 0px; }
+}
+
+hr { background: var(--border-color); border: none; height: 1px; width: 100=
+%; }
+
+.hidden { display: none; }
+
+.framed { border: 1px solid var(--border-color); border-radius: 10px; max-w=
+idth: 800px; padding: 20px; }
+
+blockquote.twitter-tweet { background: rgba(44, 124, 186, 0.1); border: non=
+e; border-radius: 8px; color: inherit; font-size: inherit; line-height: inh=
+erit; padding: 30px; }
+
+.h-anchor { color: var(--color-secondary); margin-left: 1px; opacity: 0; te=
+xt-decoration: none; transition: visibility 0s linear 0.1s, opacity 0.1s li=
+near 0s; visibility: hidden; }
+
+h1:hover a, h2:hover a, h3:hover a, h4:hover a { opacity: 1; transition-del=
+ay: 0s; visibility: visible; }
+
+.framed .h-anchor { visibility: hidden; }
+
+.post { margin: 20px auto; max-width: 800px; padding: 20px; text-align: lef=
+t; width: 100%; }
+
+@media (max-width: 899px) {
+  .post { max-width: 660px; }
+}
+
+.post:not(:last-of-type) { border-bottom: 1px solid var(--border-color); }
+
+.post-meta { font-size: 1rem; margin-bottom: 10px; }
+
+@media (max-width: 683px) {
+  .post-meta { font-size: 0.85rem; }
+}
+
+.post-title { font-size: 2.625rem; margin: 0px 0px 20px; }
+
+@media (max-width: 683px) {
+  .post-title { font-size: 2rem; }
+}
+
+.post-title a { text-decoration: none; }
+
+.post-tags { display: block; font-size: 1rem; margin-bottom: 20px; opacity:=
+ 0.5; }
+
+.post-tags a { text-decoration: none; }
+
+.post-content { margin-top: 30px; }
+
+.post-cover { margin: 40px -50px; max-width: 860px; width: 860px; }
+
+.post-cover img { border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.15) 0px 1=
+2px 40px; margin: 0px auto; }
+
+@media (max-width: 899px) {
+  .post-cover { margin: 20px 0px; width: 100%; }
+}
+
+.post--regulation h1, .post--regulation h2 { justify-content: center; }
+
+.post--regulation h2 { margin-bottom: 10px; }
+
+.post--regulation h2 + h2 { margin-bottom: 20px; margin-top: -10px; }
+
+.pagination { margin-top: 50px; }
+
+.pagination__title { display: flex; margin: 100px 0px 20px; position: relat=
+ive; text-align: center; }
+
+.pagination__title-h { background: var(--background); color: var(--color-se=
+condary); font-size: 0.8rem; letter-spacing: 0.1em; margin: 0px auto; paddi=
+ng: 5px 10px; text-align: center; text-decoration: none; text-transform: up=
+percase; z-index: 1; }
+
+.pagination__title hr { left: 0px; margin-top: 15px; position: absolute; ri=
+ght: 0px; width: 100%; z-index: 0; }
+
+.pagination__buttons { align-items: center; display: flex; justify-content:=
+ center; }
+
+.pagination__buttons a { font-weight: 700; text-decoration: none; }
+
+.button { align-items: center; appearance: none; background: var(--backgrou=
+nd-secondary); border-radius: 8px; cursor: pointer; display: inline-flex; f=
+ont-size: 1rem; font-weight: 500; justify-content: center; max-width: 40%; =
+padding: 0px; position: relative; }
+
+.button + .button { margin-left: 10px; }
+
+.button a { display: flex; padding: 8px 16px; text-decoration: none; }
+
+.button__text, .button a { overflow: hidden; text-overflow: ellipsis; white=
+-space: nowrap; }
+
+.button.next .button__icon { margin-left: 8px; }
+
+.button.previous .button__icon { margin-right: 8px; }
+
+.footer { color: var(--color-secondary); flex-grow: 0; padding: 40px 20px; =
+}
+
+.footer__inner { align-items: center; display: flex; justify-content: space=
+-between; margin: 0px auto; max-width: 100%; width: 760px; }
+
+@media (max-width: 899px) {
+  .footer__inner { flex-direction: column; }
+}
+
+.footer a { color: inherit; }
+
+.footer .copyright { align-items: center; display: flex; flex-direction: ro=
+w; font-size: 1rem; }
+
+.footer .copyright--user { margin: auto; text-align: center; }
+
+.footer .copyright > :first-child:not(:only-child) { border-right: 1px soli=
+d; margin-right: 10px; padding-right: 10px; }
+
+@media (max-width: 899px) {
+  .footer .copyright > :first-child:not(:only-child) { border: none; margin=
+: 0px; padding: 0px; }
+  .footer .copyright { flex-direction: column; margin-top: 10px; }
+}
+
+.terms { margin: 0px auto; max-width: 800px; padding: 20px; text-align: lef=
+t; width: 100%; }
+
+.terms__list { margin: 0px; padding: 0px 0px 0px 20px; }
+
+.terms__list a { text-decoration: none; }
+
+.terms__term { margin-bottom: 15px; }
+
+.terms__term-count { background: var(--background-secondary); border-radius=
+: 5px; font-size: 12px; margin-left: 5px; padding: 2px 10px; text-decoratio=
+n: none; }
+
+.archive { margin: 0px auto; max-width: 800px; padding: 20px; text-align: l=
+eft; width: 100%; }
+
+.archive__group-month { align-items: flex-start; display: flex; padding: 10=
+px 0px; }
+
+@media (max-width: 683px) {
+  .archive__group-month { flex-direction: column; }
+}
+
+.archive__group-month:not(:last-of-type) { border-bottom: 1px solid var(--b=
+order-color); }
+
+.archive__group-year { margin-top: 40px; }
+
+@media (max-width: 683px) {
+  .archive__group-year { margin-top: 20px; }
+}
+
+.archive__group-year:not(:last-of-type) { border-bottom: 1px solid var(--bo=
+rder-color); }
+
+.archive__group-year-header { margin: 10px 0px; }
+
+.archive__group-month-header { margin: 25px 0px; opacity: 0.5; width: 200px=
+; }
+
+@media (max-width: 683px) {
+  .archive__group-month-header { margin: 10px 0px 0px; }
+}
+
+.archive__group-posts { width: 100%; }
+
+.archive__post { padding: 20px 0px; }
+
+.archive__post:not(:last-of-type) { border-bottom: 1px solid var(--border-c=
+olor); }
+
+.archive__post-title { margin: 5px 0px; }
+
+.archive__post-title a { display: block; text-decoration: none; }
+
+code[class*=3D"language-"], pre[class*=3D"language-"] { overflow-wrap: norm=
+al; background: none; font-family: Consolas, Monaco, "Andale Mono", "Ubuntu=
+ Mono", monospace; hyphens: none; tab-size: 4; text-align: left; white-spac=
+e: pre; word-break: normal; word-spacing: normal; }
+
+pre[class*=3D"language-"] { margin: 0.5em 0px; overflow: auto; padding: 1em=
+; }
+
+:not(pre) > code[class*=3D"language-"], pre[class*=3D"language-"] { border-=
+radius: 8px; background: rgb(33, 32, 32) !important; color: inherit !import=
+ant; }
+
+:not(pre) > code[class*=3D"language-"] { border-radius: 0.3em; padding: 0.1=
+em; white-space: normal; }
+
+.token.block-comment, .token.cdata, .token.comment, .token.doctype, .token.=
+prolog { color: rgba(255, 255, 255, 0.4); }
+
+.token.punctuation { color: rgb(169, 169, 179); }
+
+.token.attr-name, .token.deleted, .token.namespace, .token.tag { color: rgb=
+(226, 119, 122); }
+
+.token.function-name { color: rgb(97, 150, 204); }
+
+.token.boolean, .token.function, .token.number { color: rgb(240, 141, 73); =
+}
+
+.token.class-name, .token.constant, .token.property, .token.symbol { color:=
+ rgb(248, 197, 85); }
+
+.token.atrule, .token.builtin, .token.important, .token.keyword, .token.sel=
+ector { color: rgb(204, 153, 205); }
+
+.token.attr-value, .token.char, .token.regex, .token.string, .token.variabl=
+e { color: rgb(126, 198, 153); }
+
+.token.entity, .token.operator, .token.url { color: rgb(103, 205, 204); }
+
+.token.bold, .token.important { font-weight: 700; }
+
+.token.italic { font-style: italic; }
+
+.token.entity { cursor: help; }
+
+.token.inserted { color: green; }
+
+pre[class*=3D"language-"].line-numbers { counter-reset: linenumber 0; paddi=
+ng-left: 3.8em; position: relative; }
+
+pre[class*=3D"language-"].line-numbers > code { position: relative; white-s=
+pace: inherit; }
+
+.line-numbers .line-numbers-rows { border-right: 1px solid rgb(153, 153, 15=
+3); font-size: 100%; left: -3.8em; letter-spacing: -1px; pointer-events: no=
+ne; position: absolute; top: 0px; user-select: none; width: 3em; }
+
+.line-numbers-rows > span { counter-increment: linenumber 1; display: block=
+; pointer-events: none; }
+
+.line-numbers-rows > span::before { color: rgb(153, 153, 153); content: cou=
+nter(linenumber); display: block; padding-right: 0.8em; text-align: right; =
+}
+
+div.code-toolbar { position: relative; }
+
+div.code-toolbar > .toolbar { opacity: 0; position: absolute; right: 0.2em;=
+ top: 0.3em; transition: opacity 0.3s ease-in-out 0s; }
+
+div.code-toolbar:hover > .toolbar { opacity: 1; }
+
+div.code-toolbar > .toolbar .toolbar-item { display: inline-block; }
+
+div.code-toolbar > .toolbar a { cursor: pointer; }
+
+div.code-toolbar > .toolbar button { background: none; border: 0px; color: =
+inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; =
+font-stretch: inherit; font-size: inherit; font-family: inherit; font-optic=
+al-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; =
+font-variation-settings: inherit; line-height: normal; overflow: visible; p=
+adding: 0px; user-select: none; }
+
+div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code=
+-toolbar > .toolbar span { background: rgba(224, 224, 224, 0.2); border-rad=
+ius: 0.5em; box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px 0px; color: rgb(187,=
+ 187, 187); font-size: 0.8em; padding: 0px 0.5em; }
+
+div.code-toolbar > .toolbar a:focus, div.code-toolbar > .toolbar a:hover, d=
+iv.code-toolbar > .toolbar button:focus, div.code-toolbar > .toolbar button=
+:hover, div.code-toolbar > .toolbar span:focus, div.code-toolbar > .toolbar=
+ span:hover { color: inherit; text-decoration: none; }
+
+.command-line-prompt { border-right: 1px solid rgb(153, 153, 153); display:=
+ block; float: left; font-size: 100%; letter-spacing: -1px; margin-right: 1=
+em; pointer-events: none; user-select: none; }
+
+.command-line-prompt > span::before { color: rgb(153, 153, 153); content: "=
+ "; display: block; padding-right: 0.8em; }
+
+.command-line-prompt > span[data-user]::before { content: "[" attr(data-use=
+r) "@" attr(data-host) "] $"; }
+
+.command-line-prompt > span[data-user=3D"root"]::before { content: "[" attr=
+(data-user) "@" attr(data-host) "] #"; }
+
+.command-line-prompt > span[data-prompt]::before { content: attr(data-promp=
+t); }
+
+.collapsable-code { margin: 40px 0px; position: relative; width: 100%; }
+
+.collapsable-code input[type=3D"checkbox"] { position: absolute; visibility=
+: hidden; }
+
+.collapsable-code input[type=3D"checkbox"]:checked ~ .code-toolbar pre, .co=
+llapsable-code input[type=3D"checkbox"]:checked ~ pre { border-top: none; h=
+eight: 0px; padding: 0px; }
+
+.collapsable-code input[type=3D"checkbox"]:checked ~ .code-toolbar { border=
+-top: none; padding: 0px; }
+
+.collapsable-code input[type=3D"checkbox"]:checked ~ .code-toolbar .toolbar=
+ { display: none; }
+
+.collapsable-code input[type=3D"checkbox"]:checked ~ label { border-radius:=
+ 10px; }
+
+.collapsable-code input[type=3D"checkbox"]:checked ~ label .collapsable-cod=
+e__toggle::after { content: attr(data-label-expand); }
+
+.collapsable-code label { background: var(--background-secondary); border-t=
+op-left-radius: 10px; border-top-right-radius: 10px; cursor: pointer; displ=
+ay: flex; justify-content: space-between; margin: 0px; min-height: 30px; mi=
+n-width: 30px; padding: 10px; position: relative; }
+
+.collapsable-code__title { color: var(--color); flex: 1 1 0%; overflow: hid=
+den; padding: 3px 10px; text-overflow: ellipsis; white-space: nowrap; }
+
+.collapsable-code__language { background: var(--background); border-radius:=
+ 10px; color: var(--color); padding: 3px 10px; }
+
+.collapsable-code__toggle { color: var(--color); font-size: 16px; padding: =
+3px 10px; }
+
+.collapsable-code__toggle::after { content: attr(data-label-collapse); }
+
+.collapsable-code pre { border-top-left-radius: 0px; border-top-right-radiu=
+s: 0px; margin-top: 0px; }
+
+.collapsable-code code::first-line, .collapsable-code pre::first-line { lin=
+e-height: 0; }
+
+.collapsable-code .code-toolbar { margin: 0px; }
+------MultipartBoundary--TUX4FSGPBGVjkTz9LIJN7Mw1OiRoIrvPrmMjC5CSAl----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://wazero.io/style.css
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--TUX4FSGPBGVjkTz9LIJN7Mw1OiRoIrvPrmMjC5CSAl------

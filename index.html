@@ -1,0 +1,632 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- TITLE OF THE PRESENTATION -->
+  <!-- ============================================================ -->
+  <title>
+    The Definitive Guide to Wasm for the Java Developer
+  </title>
+  <!-- ============================================================ -->
+
+  <!-- Set a favicon icon (usually the lab logo) -->
+  <link rel="shortcut icon" href="imgs/WebAssembly_Logo.svg">
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+  <link rel="stylesheet" href="fonts/computer-modern/fonts.css">
+
+  <!-- Reveal.js styles -->
+  <link rel="stylesheet" href="packages/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="packages/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="packages/revealjs/dist/theme/league.css" id="theme">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="packages/revealjs/plugin/highlight/github-gist.css" id="highlight-theme">
+
+  <!-- Custom CSS for the presentation -->
+  <link rel="stylesheet/less" type="text/css" href="css/style.less">
+
+</head>
+
+<body>
+  <!-- Include the presentation from the content Markdown file -->
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown>
+        <textarea data-template>
+          # The Definitive Guide to Wasm for the Java Developer
+
+          <img src="./imgs/WebAssembly_Logo.svg" height="20%" width="20%" style="height: 20%; width: 20%;"></img>
+        </textarea>
+      </section>
+
+      <section>
+        <div class="row">
+          <div class="col tiny">
+            <img style="width: 60%;" src="imgs/io2.png">
+          </div>
+          <div class="col tiny">
+            <h3>Andrea Peruffo</h3>
+
+            <p>X: @and_prf</p>
+            <p>GitHub: #andreaTP</p>
+            <img style="width: 50%;" src="imgs/red_hat_logo.svg">
+            <br />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Open Source
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Apicurio
+
+            <img style="width: 10%;" src="imgs/apicurio.png">
+            <br/>
+
+            https://github.com/apicurio
+
+            API tooling
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Fabric8 Kubernetes Client
+
+            <img style="width: 10%;" src="imgs/fabric8.png">
+            <br/>
+
+            https://github.com/fabric8io/kubernetes-client
+
+            - Java to Kubernetes Resources
+            - Kubernetes resources to Java
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Kiota
+
+            <img style="width: 10%;" src="imgs/kiota.png">
+            <br/>
+
+            https://github.com/microsoft/kiota
+
+            OpenAPI client SDK generation
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Chicory
+
+            <img style="width: 10%;" src="imgs/chicory1.png">
+            <br/>
+
+            https://github.com/dylibso/chicory
+
+            Wasm runtime in pure Java
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # What is WebAssembly
+
+            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for executable programs as well as software interfaces for facilitating interactions between such programs and their host environment.
+            
+            [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
+
+            - Announced: 2015<!-- .element: class="fragment" -->
+            - Released: 2017<!-- .element: class="fragment" -->
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            WebAssembly (sometimes abbreviated Wasm) defines <span style="color:rgb(240, 41, 154)">**a portable binary-code format**</span> and a corresponding text format for executable programs as well as software interfaces for facilitating interactions between such programs and their host environment.
+            
+            [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Binary Format
+
+            ```
+            00000000  00 61 73 6d 0b 00 00 00  04 74 79 70 65 87 80 80  |.asm.....type...|
+            00000010  80 00 01 40 02 01 01 01  01 08 66 75 6e 63 74 69  |...@......functi|
+            00000020  6f 6e 82 80 80 80 00 01  00 06 6d 65 6d 6f 72 79  |on........memory|
+            00000030  85 80 80 80 00 80 02 80  02 01 06 65 78 70 6f 72  |...........expor|
+            00000040  74 86 80 80 80 00 01 00  03 61 64 64 04 63 6f 64  |t........add.cod|
+            00000050  65 8c 80 80 80 00 01 86  80 80 80 00 00 14 00 14  |e...............|
+            00000060  01 40 04 6e 61 6d 65 86  80 80 80 00 01 03 61 64  |.@.name.......ad|
+            00000070  64 00 __ __ __ __ __ __  __ __ __ __ __ __ __ __  |d.|
+            ```
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding <span style="color:rgb(240, 41, 154)">**text format**</span> for executable programs as well as software interfaces for facilitating interactions between such programs and their host environment.
+            
+            [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Text Format
+
+            ```
+            (module
+              (type $0 (func (param i32 i32) (result i32)))
+              (export "add" $add)
+              (func $add (type $0) (param $var$0 i32) (param $var$1 i32) (result i32)
+                (i32.add
+                  (get_local $var$0)
+                  (get_local $var$1)
+                )
+              )
+            )
+            ```
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for <span style="color:rgb(240, 41, 154)">**executable programs**</span> as well as software interfaces for facilitating interactions between such programs and their host environment.
+            
+            [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Executable programs
+
+            ```
+            execute add 1 2
+            > 3
+            ```
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Executable programs
+
+            - `get_local $var$0` | push 1
+
+            <table>
+              <tr><td></td></tr>
+              <tr><td>| 1 |</td></tr>
+              <tr><td></td></tr>
+            </table>
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Executable programs
+
+            - `get_local $var$1` | push 2
+
+            <table>
+              <tr><td></td></tr>
+              <tr><td>| 2 |</td></tr>
+              <tr><td>| 1 |</td></tr>
+              <tr><td></td></tr>
+            </table>
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Executable programs
+
+            - `i32.add` | pop 2
+
+            <table>
+              <tr><td></td></tr>
+              <tr><td>| 1 |</td></tr>
+              <tr><td></td></tr>
+            </table>
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Executable programs
+
+            - `i32.add` | pop 1
+
+            <table>
+              <tr><td></td></tr>
+              <tr><td></td></tr>
+            </table>
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # Executable programs
+
+            - `i32.add` | push 3
+
+            <table>
+              <tr><td></td></tr>
+              <tr><td>| 3 |</td></tr>
+              <tr><td></td></tr>
+            </table>
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # What is WebAssembly
+
+            WebAssembly (sometimes abbreviated Wasm) defines a portable binary-code format and a corresponding text format for executable programs as well as software interfaces for <span style="color:rgb(240, 41, 154)">**facilitating interactions**</span> between such programs and their host environment.
+            
+            [https://en.wikipedia.org/wiki/WebAssembly](https://en.wikipedia.org/wiki/WebAssembly)
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Facilitating interactions
+
+            <img style="width: 20%;" src="imgs/interacting.jpeg">
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            WebAssembly is a new fundamental abstraction boundary.
+
+            https://wingolog.org/archives/2024/01/08/missing-the-point-of-webassembly
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # The two sides of it
+
+            <img style="width: 20%;" src="imgs/doubleface.jpeg">
+            <br/>
+
+            - compile to Wasm<!-- .element: class="fragment" -->
+            - execute Wasm code<!-- .element: class="fragment" -->
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # The problems it solves
+
+            - sandboxed execution<!-- .element: class="fragment" -->
+            - memory control<!-- .element: class="fragment" -->
+            - speed<!-- .element: class="fragment" -->
+            - standard (W3C)<!-- .element: class="fragment" -->
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Where is it used?
+
+            - Web Browsers<!-- .element: class="fragment" -->
+            - FaaS<!-- .element: class="fragment" -->
+            - Extensions<!-- .element: class="fragment" -->
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Requirements
+
+            ## Tools
+
+            not required but useful:
+            https://sdkman.io/
+
+            - Java 11+ / preferably 17
+            - Maven
+            - install Wabt tools: https://github.com/WebAssembly/wabt
+            - a Wasm runtime
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Exercises
+
+            ## Creating and running WASM programs
+
+            Requirements:
+
+            - install Rust toolchain: https://www.rust-lang.org/learn/get-started
+            - install Rust support for Wasm: `rustup target add wasm32-unknown-unknown`
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Exercise 1
+
+            Compile and execute a simple Rust program on a Wasm runtime
+
+            ./demo/add
+
+            Don't look/remove `build.sh` and `run.sh`
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Exercise 2
+
+            Translate to binary format and execute
+
+            ./demo/fact
+            ./demo/fibonacci
+
+            Don't look/remove `build.sh` and `run.sh`
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # End of part 1
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Part 2 - Implement an interpreter!
+          </textarea>
+        </section>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          # Thanks and Q&A
+          <br />
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          # Extra and optional slides
+        </textarea>
+      </section>
+
+      <!-- Extra and optional -->
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Chicory Use cases
+
+            Note:
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            <img src="./imgs/jruby.png" height="20%" width="20%" style="height: 20%; width: 20%;"></img>
+            ## +
+            <img src="./imgs/ruby-prism.png" height="20%" width="20%" style="height: 20%; width: 20%;"></img>
+
+            ## An Unexpected Journey
+
+            Note:
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            ## An Unexpected Journey
+
+            - Prism: C Parser for Ruby
+            - JRuby: Ruby on the JVM
+            - Bootstrap: FFI to cross compiled C libs
+
+            Note:
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            <img src="./imgs/keycloak.svg" height="30%" width="30%" style="height: 30%; width: 30%;"></img>
+            <br />
+
+            [Keycloak](https://github.com/pedroigor/keycloak-wasm-policy-provider) policy provider
+
+            Note:
+
+            Keycloak is a popular Identity Management software, allowing features like Single Sign On to be easily
+            implemented within corporate services.
+            It's widely used in the Enterprise and it has a wide range of functionalities, for example it allows you to
+            authenticate your accounts with a variety of services, even the old one like Kerberos.
+
+            Sometimes, the configuration is not enough and you need to write a little plugin to fully customize the
+            behavior of the authentication logic.
+            In this example we integrated a Keycloak Policy Provider able to load and execute wasm functions to verify
+            the user authentication, the wasm module have access to the user context using Host Functions.
+          </textarea>
+        </section>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          # More use-cases
+
+          - [Apache Camel](https://camel.apache.org/components/4.4.x/wasm-component.html) producer
+          - [Kafka Connect](https://lburgazzoli.github.io/posts/2024-02-01_apache_kafka_connect_meets_wasm_part_1/)
+          transformation
+          - [Apache Pulsar](https://lburgazzoli.github.io/posts/2023-06-13-apache-camel-pulsar-function-pt_1/) function
+          - [Kroxylicious](https://github.com/andreaTP/kroxylicious-wasm) filter
+
+          Note:
+
+          By using extension mechanisms we are scaling the complexity of the applications.
+        </textarea>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- Less to compile the style sheet to plain CSS -->
+  <script src="packages/less/less.min.js" type="text/javascript"></script>
+
+  <!-- Import the Reveal.js Javascript code -->
+  <script src="packages/revealjs/dist/reveal.js" type="text/javascript"></script>
+  <!-- Code for the plugins (also need to include them in Reveal.initialize) -->
+  <script src="packages/revealjs/plugin/math/math.js" type="text/javascript"></script>
+  <script src="packages/revealjs/plugin/markdown/markdown.js" type="text/javascript"></script>
+  <script src="packages/revealjs/plugin/highlight/highlight.js" type="text/javascript"></script>
+  <script src="packages/revealjs/plugin/notes/notes.js" type="text/javascript"></script>
+
+  <!-- Configure Reveal.js -->
+  <script>
+    Reveal.initialize({
+      katex: {
+        local: 'packages/katex',
+      },
+      plugins: [RevealMarkdown, RevealMath.KaTeX, RevealHighlight, RevealNotes],
+      width: 1920,
+      height: 1080,
+      margin: 0.1,
+      // Bounds for smallest/largest possible scale to apply to content
+      minScale: 0.1,
+      maxScale: 2.0,
+      // Play videos automatically when displaying a slide
+      autoPlayMedia: true,
+      // Vertical centering of slides
+      center: true,
+      // Transition style
+      transition: 'none', // none/fade/slide/convex/concave/zoom
+      // Transition speed
+      transitionSpeed: 'default', // default/fast/slow
+      // Transition style for full page slide backgrounds
+      backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
+      // Display presentation control arrows
+      controls: true,
+      // Help the user learn the controls by providing hints, for example by
+      // bouncing the down arrow when they first encounter a vertical slide
+      controlsTutorial: true,
+      // Determines where controls appear, "edges" or "bottom-right"
+      controlsLayout: 'bottom-right',
+      // Visibility rule for backwards navigation arrows; "faded", "hidden"
+      // or "visible"
+      controlsBackArrows: 'faded',
+      // Display a presentation progress bar
+      progress: true,
+      // Display the page number of the current slide
+      // - "c/t":   Flattened slide number / total slides
+      slideNumber: "c/t",
+      // Add the current slide number to the URL hash so that reloading the
+      // page/copying the URL will return you to the same slide
+      hash: true,
+      // Flags if we should monitor the hash and change slides accordingly
+      respondToHashChanges: true,
+      // Turns fragments on and off globally
+      fragments: true,
+      // Flags whether to include the current fragment in the URL,
+      // so that reloading brings you to the same fragment position
+      fragmentInURL: true,
+      // Push each slide change to the browser history.  Implies `hash: true`
+      history: false,
+      // Enable keyboard shortcuts for navigation
+      keyboard: true,
+      // Enables touch navigation on devices with touch input
+      touch: true,
+      // Loop the presentation
+      loop: false,
+      // Changes the behavior of our navigation directions.
+      // "default"
+      // Left/right arrow keys step between horizontal slides, up/down
+      // arrow keys step between vertical slides. Space key steps through
+      // all slides (both horizontal and vertical).
+      // "linear"
+      // Removes the up/down arrows. Left/right arrows step through all
+      // slides (both horizontal and vertical).
+      // "grid"
+      // When this is enabled, stepping left/right from a vertical stack
+      // to an adjacent vertical stack will land you at the same vertical
+      // index.
+      navigationMode: 'linear',
+      // Flags if we should show a help overlay when the question-mark
+      // key is pressed
+      help: true,
+      // Flags if it should be possible to pause the presentation (blackout)
+      pause: false,
+      // Flags if speaker notes should be visible to all viewers
+      //showNotes: false,
+      // Enable slide navigation via mouse wheel
+      mouseWheel: false,
+      // The maximum number of pages a single slide can expand onto when printing
+      // to PDF, unlimited by default (Number.POSITIVE_INFINITY)
+      pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      // Prints each fragment on a separate slide
+      pdfSeparateFragments: true,
+      // Offset used to reduce the height of content within exported PDF pages.
+      // This exists to account for environment differences based on how you
+      // print to PDF. CLI printing options, like phantomjs and wkpdf, can end
+      // on precisely the total height of the document whereas in-browser
+      // printing has to end one pixel before.
+      pdfPageHeightOffset: -1,
+      // forward every 15 seconds
+      // autoSlide: 15000,
+      // stop at the end
+      loop: false
+    });
+  </script>
+
+</body>
+
+</html>

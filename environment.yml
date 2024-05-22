@@ -1,0 +1,7 @@
+name: talk
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9
+  - livereload==2.6.*

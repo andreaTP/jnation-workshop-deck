@@ -1,0 +1,14 @@
+[package]
+name    = "add"
+version = "0.1.0"
+authors = ["andrea.peruffo1982@gmail.com"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+path = "add.rs"
+
+[profile.release]
+opt-level = 0
+lto = "off"
+codegen-units = 1

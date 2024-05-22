@@ -1,0 +1,9 @@
+.DS_Store
+bin
+.idea
+target
+.env
+/demo/chicory
+/demo/wat2wasm
+demo/fact/iterfact.wasm
+demo/fibonacci/fibonacci.wasm
