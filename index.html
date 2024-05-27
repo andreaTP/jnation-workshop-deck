@@ -392,11 +392,10 @@
           <textarea data-template>
             # Exercise 1
 
-            Compile and execute a simple Rust program on a Wasm runtime
+            Translate to binary format and execute
 
-            ./demo/add
-
-            Don't look/remove `build.sh` and `run.sh`
+            - `./demo/fact`
+            - `./demo/fibonacci`
           </textarea>
         </section>
       </section>
@@ -406,12 +405,9 @@
           <textarea data-template>
             # Exercise 2
 
-            Translate to binary format and execute
+            Compile and execute a simple Rust program on a Wasm runtime
 
-            ./demo/fact
-            ./demo/fibonacci
-
-            Don't look/remove `build.sh` and `run.sh`
+            - `./demo/add`
           </textarea>
         </section>
       </section>
@@ -428,8 +424,62 @@
         <section data-markdown>
           <textarea data-template>
             # Part 2 - Implement an interpreter!
+
+            `git clone --branch jnation-2024 --depth 1 https://github.com/andreaTP/chicory.git`
+
+            Note:
+
+            project structure overview
           </textarea>
         </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            # Part 2 - Implement an interpreter! `wasm` module
+
+            - `parseFunctionSection`<!-- .element: class="fragment" -->
+
+            https://webassembly.github.io/spec/core/binary/modules.html#binary-funcsec<!-- .element: class="fragment" -->
+
+            Note:
+
+            need to parse the section that bind the function implementations to their corresponding types/signatures
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            # Part 2 - Implement an interpreter! `wasm` module
+
+            - implement the i32.add opcode handling<!-- .element: class="fragment" -->
+
+            https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-numeric<!-- .element: class="fragment" -->
+
+            Note:
+
+            now the parser is going to fail on a specific OpCode, brief introduction to code-gen etc.
+          </textarea>
+        </section>
+
+        <section data-markdown>
+          <textarea data-template>
+            # Part 2 - Implement an interpreter! `runtime` module
+
+            - implement the i32.add opcode handling<!-- .element: class="fragment" -->
+
+            https://webassembly.github.io/spec/core/exec/instructions.html#numeric-instructions<!-- .element: class="fragment" -->
+
+            Note:
+
+            what is going to be executed by the interpreter: this is also the magic why it works out of the box in native image with no configuration
+          </textarea>
+        </section>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          # End of Part 2
+        </textarea>
       </section>
 
       <section data-markdown>
