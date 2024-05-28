@@ -91,7 +91,7 @@
             https://github.com/fabric8io/kubernetes-client
 
             - Java to Kubernetes Resources
-            - Kubernetes resources to Java
+            - Kubernetes Resources to Java
           </textarea>
         </section>
         <section data-markdown>
@@ -118,6 +118,121 @@
             Wasm runtime in pure Java
           </textarea>
         </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Why Chicory?
+            ## How do we execute Wasm in the JVM today?
+
+            - Many mature options for running Wasm
+            - wasmtime, wasmer, wasmedge, v8, etc
+
+            Note:
+
+            - There are a number of Wasm runtimes that you can run in the JVM today.
+            - So why do we need a new runtime?
+            - The primary issue is these runtimes are all written in languages like c++ and rust and distributed as
+            native code.
+
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Why Chicory?            
+            ## Loading Native Code in the JVM Has Downsides
+
+            - Distribution: Makes your app platform specific <!-- .element: class="fragment" -->
+            - Runtime: Execution leaves safety and observability of the JVM <!-- .element: class="fragment" -->
+
+            Note:
+
+            - Distribution: The primary reason people target the JVM is for it's platform dependence. This violates it.
+            - Runtime: Jumping into the native code leaves the safety and observability of the JVM. It also adds
+            complexity and overhead when translating across the boundary.
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Why Chicory?
+            ## Within the JVM Boundaries
+
+            - Guaranteed Memory Safety
+            - Fault Isolation
+            - Super advanced JIT
+            - Self contained programs
+            - WORA: (Write once run anywhere) Platform independent bytecode
+            - ... more!
+
+            Note:
+
+            - So lets talk about specifics, what are the benefits of staying within the boundaries of the JVM?
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Is it a VM?
+            <img style="width: 30%;" src="imgs/virtual-machines.png" />
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Demo
+            `jbang --repos jitpack com.github.andreaTP:doom-chicory:main-SNAPSHOT`
+          </textarea>
+        </section>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          # Use-cases
+
+          <img src="./imgs/keycloak.svg" height="30%" width="30%" style="height: 30%; width: 30%;"></img>
+          <br />
+
+          [Keycloak](https://github.com/pedroigor/keycloak-wasm-policy-provider) policy provider
+
+          Note:
+
+          Keycloak is a popular Identity Management software, allowing features like Single Sign On to be easily
+          implemented within corporate services.
+          It's widely used in the Enterprise and it has a wide range of functionalities, for example it allows you to
+          authenticate your accounts with a variety of services, even the old one like Kerberos.
+
+          Sometimes, the configuration is not enough and you need to write a little plugin to fully customize the
+          behavior of the authentication logic.
+          In this example we integrated a Keycloak Policy Provider able to load and execute wasm functions to verify
+          the user authentication, the wasm module have access to the user context using Host Functions.
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          # More use-cases
+
+          - [Apache Camel](https://camel.apache.org/components/4.4.x/wasm-component.html) producer
+          - [Kafka Connect](https://lburgazzoli.github.io/posts/2024-02-01_apache_kafka_connect_meets_wasm_part_1/)
+          transformation
+          - [Apache Pulsar](https://lburgazzoli.github.io/posts/2023-06-13-apache-camel-pulsar-function-pt_1/) function
+          - [Kroxylicious](https://github.com/andreaTP/kroxylicious-wasm) filter
+
+          Note:
+
+          By using extension mechanisms we are scaling the complexity of the applications.
+        </textarea>
       </section>
 
       <section>
@@ -567,44 +682,8 @@
             Note:
           </textarea>
         </section>
-
-        <section data-markdown>
-          <textarea data-template>
-            <img src="./imgs/keycloak.svg" height="30%" width="30%" style="height: 30%; width: 30%;"></img>
-            <br />
-
-            [Keycloak](https://github.com/pedroigor/keycloak-wasm-policy-provider) policy provider
-
-            Note:
-
-            Keycloak is a popular Identity Management software, allowing features like Single Sign On to be easily
-            implemented within corporate services.
-            It's widely used in the Enterprise and it has a wide range of functionalities, for example it allows you to
-            authenticate your accounts with a variety of services, even the old one like Kerberos.
-
-            Sometimes, the configuration is not enough and you need to write a little plugin to fully customize the
-            behavior of the authentication logic.
-            In this example we integrated a Keycloak Policy Provider able to load and execute wasm functions to verify
-            the user authentication, the wasm module have access to the user context using Host Functions.
-          </textarea>
-        </section>
       </section>
 
-      <section data-markdown>
-        <textarea data-template>
-          # More use-cases
-
-          - [Apache Camel](https://camel.apache.org/components/4.4.x/wasm-component.html) producer
-          - [Kafka Connect](https://lburgazzoli.github.io/posts/2024-02-01_apache_kafka_connect_meets_wasm_part_1/)
-          transformation
-          - [Apache Pulsar](https://lburgazzoli.github.io/posts/2023-06-13-apache-camel-pulsar-function-pt_1/) function
-          - [Kroxylicious](https://github.com/andreaTP/kroxylicious-wasm) filter
-
-          Note:
-
-          By using extension mechanisms we are scaling the complexity of the applications.
-        </textarea>
-      </section>
 
     </div>
   </div>
