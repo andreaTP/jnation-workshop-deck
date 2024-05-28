@@ -3,7 +3,7 @@ bin
 .idea
 target
 .env
-/demo/chicory
-/demo/wat2wasm
-demo/fact/iterfact.wasm
-demo/fibonacci/fibonacci.wasm
+/exercises/chicory
+/exercises/wat2wasm
+/exercises/fact/iterfact.wasm
+/exercises/fibonacci/fibonacci.wasm
