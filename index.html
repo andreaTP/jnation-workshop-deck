@@ -510,7 +510,7 @@
             - Java 11+ / preferably 17
             - Maven
             - install Wabt tools: https://github.com/WebAssembly/wabt
-            - a Wasm runtime
+            - a Wasm runtime (e.g. `wasmtime`)
           </textarea>
         </section>
       </section>
@@ -526,6 +526,18 @@
 
             - install Rust toolchain: https://www.rust-lang.org/learn/get-started
             - install Rust support for Wasm: `rustup target add wasm32-unknown-unknown`
+          </textarea>
+        </section>
+      </section>
+
+      <section>
+        <section data-markdown>
+          <textarea data-template>
+            # Repo
+
+            ```
+            git clone https://github.com/andreaTP/jnation-workshop-deck.git
+            ```
           </textarea>
         </section>
       </section>
@@ -637,7 +649,12 @@
             `./demo/integration`
 
             - `i32 -> i32`
-            - `[i32, i32] -> i32`
+
+            ```bash
+            curl -v 'http://localhost:8080/wasm' -H 'Content-Type: application/octet-stream' --data-binary @./example.wasm
+  
+            curl -v 'http://localhost:8080/compute' -H 'Content-Type: application/json' --data-raw '3'
+            ```
           </textarea>
         </section>
 
@@ -647,6 +664,7 @@
 
             `./demo/integration`
 
+            - `[i32, i32] -> i32`
             - `String -> i32` Memory
 
             Note:
