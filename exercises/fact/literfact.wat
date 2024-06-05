@@ -1,6 +1,6 @@
 (module
-;; $iterFact computes factorial:
-;; int result = 1;
+;; $literFact computes factorial:
+;; long result = 1;
 ;; while (i > 0) {
 ;;   result = result * i;
 ;;   i = i - 1;
